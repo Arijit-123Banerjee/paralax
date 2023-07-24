@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+main .text {
+    z-index: 1;
+    font-size: 10rem;
+    font-family: var(--font-family);
+    position: relative;
+    color: white;
+    top: -30px;
+    text-shadow: 5px 4px 20px black;
+}
+
+main img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+.leaf,
+.plant,
+.tree {
+    z-index: 3;
+}
+
+.leaf {
+    width: 82%;
+    position: absolute;
+    left: 19em;
+}
+
+
+
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+    position: relative;
+    top: 60px;
+    height: 60vh;
+    background-color: #003329;
+    line-height: 60px;
+}
+
+.section2 h1 {
+    color: white;
+    font-family: var(--font-family);
+    font-size: 4rem;
+}
+
+.section2 p {
+    color: white;
+    font-family: var(--font-family);
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+}
+
+.Ballons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: white;
+    font-family: var(--font-family);
+    position: relative;
+    z-index: 7;
+    height: 70vh;
+    width: 100%;
+    background-image: url('img/krzysztof-kowalik-fR6sYEjbDMg-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.paragliding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: white;
+    font-family: var(--font-family);
+    position: relative;
+    z-index: 7;
+    height: 70vh;
+    width: 100%;
+    background-image: url('img/rishabh-pandoh-889mlVa5_Ak-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.scubaDiving {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: white;
+    font-family: var(--font-family);
+    position: relative;
+    z-index: 7;
+    height: 70vh;
+    width: 100%;
+    background-image: url('img/aviv-perets-eLfDul2Uu8k-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aboutUs {
+    position: relative;
+    z-index: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 70vh;
+    background-color: rgba(0, 51, 41, 0.6);
+    overflow-y: scroll;
+
+}
+
+.aboutUs button {
+    margin-top: 90px;
+    height: 10vh;
+    width: 30%;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
